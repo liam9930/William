@@ -1,0 +1,34 @@
+@import "reset";
+@import "global";
+
+.banner {
+    outline: auto;
+
+    .image-container {
+        margin: 72px 24px 72px 0;
+        width: 636px;
+    }
+    .text-container{
+        margin-top: 232px;
+        font-size: 64px;
+    }
+    .name{
+        color:#00FFA3;
+    }
+    .first-letter{
+        font-size: 128px;
+    }
+    .btn{
+        padding: 12px 24px;
+        .arrorw-icon{
+            margin-left: 4px;
+        }
+    }
+}
+.introduction{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    padding: 169px 0px;
+    .text-container{
+        width:41.67%;
+    }
+}
